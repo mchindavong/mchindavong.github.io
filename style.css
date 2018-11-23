@@ -4,14 +4,22 @@ body {
     box-sizing: border-box;
 }
 
+.navbar {
+    background: transparent !important;
+}
+
+.navbar.scrolled {
+    background: #FD96A9 !important;
+}
+
 .header {
     line-height: 1;
     border-bottom: 1px solid #e5e5e5;
 }
   
 .header-logo {
-    font-family: "Playfair Display", serif;
-    font-size: 2.25rem;    
+    font-family: "Abril Fatface", cursive;
+    font-size: 2.25rem;
 }
   
 .header-logo:hover {
@@ -19,7 +27,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Playfair Display" serif;
+    font-family: "Abril Fatface" cursive;
 }
 
 .display-4 {
@@ -32,16 +40,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about {
-    background-color: yellow;
+    background-color: #FD96A9;
     align-content: center;
 }
 
 #portfolio {
-    background-color: orange;
+    background-color: #FFFFFF;
 }
 
-#contact {
-    background-color: green;
+.jumbotron {
+    background-color: #FD96A9 !important;
 }
 
 .card-deck {
