@@ -1,5 +1,4 @@
 body {
-    font-family: 'Roboto Slab', serif;
     margin: auto;
     box-sizing: border-box;
 }
@@ -26,14 +25,24 @@ body {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Abril Fatface" cursive;
+.display-4 {
+	font-family: "Abril Fatface", cursive;
+	font-style: italic;
+	font-variant-ligatures: discretionary-ligatures;
+	-webkit-font-smoothing: antialiased;
 }
 
-.display-4 {
-    font-size: 2.5rem;
-  }
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Abril Fatface", cursive;
+	font-variant-ligatures: discretionary-ligatures;
+	-webkit-font-smoothing: antialiased;
+}
 
+p {
+	font-family: 'Raleway', sans-serif !important;
+	font-variant-ligatures: discretionary-ligatures;
+	-webkit-font-smoothing: antialiased;
+}
 .container-fluid {
     padding-top:70px;
     padding-bottom:70px;
@@ -41,7 +50,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #about {
     background-color: #FD96A9;
-    align-content: center;
 }
 
 #portfolio {
@@ -52,12 +60,12 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #FD96A9 !important;
 }
 
-.card-deck {
-    padding: 25px;
+.card-deck, .card {
+	background: transparent !important;
+	border: none;
 }
 
 .footer {
     margin: auto;
     padding: 15px;
-    text-align: center;
 }
