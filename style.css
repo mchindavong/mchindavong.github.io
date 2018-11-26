@@ -26,22 +26,15 @@ body {
 }
 
 .display-4 {
-	font-family: "Abril Fatface", cursive;
-	font-style: italic;
-	font-variant-ligatures: discretionary-ligatures;
-	-webkit-font-smoothing: antialiased;
+	font-family: "Abril Fatface", cursive;	
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Abril Fatface", cursive;
-	font-variant-ligatures: discretionary-ligatures;
-	-webkit-font-smoothing: antialiased;
 }
 
 p {
 	font-family: 'Raleway', sans-serif !important;
-	font-variant-ligatures: discretionary-ligatures;
-	-webkit-font-smoothing: antialiased;
 }
 .container-fluid {
     padding-top:25px;
