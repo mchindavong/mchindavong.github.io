@@ -3,13 +3,13 @@ body {
     box-sizing: border-box;
 }
 
-.navbar {
+/* .navbar {
     background: transparent !important;
-}
+} */
 
-.navbar.scrolled {
-    background: #FD96A9 !important;
-}
+/* .navbar.scrolled {
+    background: #FFFFFF !important;
+} */
 
 .header {
     line-height: 1;
@@ -42,7 +42,7 @@ p {
 }
 
 #about {
-    background-color: #FD96A9;
+    background-color: #FFFFFF;
 }
 
 #portfolio {
@@ -50,7 +50,7 @@ p {
 }
 
 .jumbotron {
-    background-color: #FD96A9 !important;
+    background-color: #FFFFFF !important;
 }
 
 .card-deck, .card {
