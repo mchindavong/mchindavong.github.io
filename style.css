@@ -1,28 +1,21 @@
 body {
     margin: auto;
     box-sizing: border-box;
+    background-color: #ffffff;
 }
 
-/* .navbar {
-    background: transparent !important;
-} */
+.navbar.sticky-top.scrolled {
+    background-color: #ffffff !important;
+}
 
-/* .navbar.scrolled {
-    background: #FFFFFF !important;
-} */
-
-.header {
-    line-height: 1;
-    border-bottom: 1px solid #e5e5e5;
+.nav-link, .btn {
+    color: #17a2b8;
 }
   
 .header-logo {
     font-family: "Abril Fatface", cursive;
-    font-size: 2.25rem;
-}
-  
-.header-logo:hover {
-    text-decoration: none;
+    font-size: 2.75rem;
+    color:#17a2b8 !important; 
 }
 
 .display-4 {
@@ -30,7 +23,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Abril Fatface", cursive;
+    font-family: "Abril Fatface", cursive;
+    color:#17a2b8;
 }
 
 p {
@@ -41,24 +35,19 @@ p {
     padding-bottom:25px;
 }
 
-#about {
-    background-color: #FFFFFF;
-}
-
-#portfolio {
-    background-color: #FFFFFF;
-}
-
-.jumbotron {
-    background-color: #FFFFFF !important;
-}
+.avatar {
+    vertical-align: middle;
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+  }
 
 .card-deck, .card {
 	background: transparent !important;
-	border: none;
+    border: none;
+    padding: 5px;
 }
 
 .footer {
-    margin: auto;
     text-align: center;
 }
