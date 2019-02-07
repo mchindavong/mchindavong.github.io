@@ -38,7 +38,7 @@ p {
 .avatar {
     vertical-align: middle;
     width: 275px;
-    height: 275px;
+    height: auto;
     border-radius: 50%;
   }
 
@@ -55,5 +55,5 @@ img {
 
 .footer {
     text-align: center;
-
+    background-color: #FBF5F3;
 }
